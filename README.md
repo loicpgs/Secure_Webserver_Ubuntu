@@ -55,7 +55,9 @@ secure-webserver-ubuntu/
 ├── setup/
 │   └── index.html
 ├── README.md
-└── notes.md (optionnel : journal, commandes, erreurs)
+├── notes.md  (optionnel : journal, commandes, erreurs)
+└── .gitignore
+
 
 🔧 Évolutions possibles
 
