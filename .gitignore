@@ -1,0 +1,27 @@
+# Fichiers et dossiers système Windows
+Thumbs.db
+Desktop.ini
+
+# Dossiers et fichiers temporaires
+*.log
+*.tmp
+*.bak
+
+# Dossiers Vagrant
+.vagrant/
+
+# Clés privées SSH (si tu en utilises)
+*.pem
+*.key
+
+# Dossiers IDE / éditeurs
+.vscode/
+.idea/
+*.swp
+
+# Fichiers Python compilés (si jamais tu utilises Python)
+__pycache__/
+*.pyc
+
+# Autres fichiers temporaires
+*.DS_Store
