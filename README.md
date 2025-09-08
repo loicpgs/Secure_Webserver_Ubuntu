@@ -17,38 +17,38 @@ Déploiement d’un serveur web sécurisé via HTTPS auto-signé dans une VM Ubu
 
 ## 🚀 Lancer le projet
 
-1. Cloner ce dépôt :
-   ```bash
+**1. Cloner ce dépôt :**
+  
    git clone https://github.com/<ton-utilisateur>/secure-webserver-ubuntu.git
    cd secure-webserver-ubuntu
 
-2. Démarrer la VM :
+**2. Démarrer la VM :**
 
 vagrant up
 
-3. Accéder au serveur :
+**3. Accéder au serveur :**
 
 http://192.168.56.10 → redirection vers HTTPS
 
 https://192.168.56.10 (certificat auto-signé, acceptez l’avertissement)
 
-4. Se connecter en SSH :
+**4. Se connecter en SSH :**
 
 vagrant ssh
 
-🧾 Configuration utilisée :
+# 🧾 Configuration utilisée :
 
-*OS : Ubuntu Server 20.04 (focal64)
+**OS :** Ubuntu Server 20.04 (focal64)
 
-*Webserver : Nginx 1.18
+**Webserver :** Nginx 1.18
 
-*HTTPS : certificat auto-signé (OpenSSL)
+**HTTPS :** certificat auto-signé (OpenSSL)
 
-*Pare-feu : UFW (ports ouverts : 22, 80, 443)
+**Pare-feu :** UFW (ports ouverts : 22, 80, 443)
 
-*Réseau : IP privée 192.168.56.10
+**Réseau :** IP privée 192.168.56.10
 
-📁 Arborescence :
+# 📁 Arborescence :
 
 secure-webserver-ubuntu/
 ├── Vagrantfile
@@ -58,18 +58,17 @@ secure-webserver-ubuntu/
 ├── notes.md  (optionnel : journal, commandes, erreurs)
 └── .gitignore
 
+ # 🔧 Évolutions possibles
 
-🔧 Évolutions possibles
+**Ajouter un script d’installation** (setup.sh)
 
-*Ajouter un script d’installation (setup.sh)
+**Utiliser DuckDNS** ou **No-IP** pour tester Let’s Encrypt
 
-*Utiliser DuckDNS ou No-IP pour tester Let’s Encrypt
+*Ajouter des **en-têtes HTTP de sécurité** (HSTS, CSP…)
 
-*Ajouter des en-têtes HTTP de sécurité (HSTS, CSP…)
-
-*Intégrer une supervision simple (Zabbix agent, etc.)
+*Intégrer une **supervision simple** (Zabbix agent, etc.)
 
 
-Licence :
+# Licence :
 
 MIT
