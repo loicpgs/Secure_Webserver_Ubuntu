@@ -1,21 +1,21 @@
-# 🔐 Secure Webserver on Ubuntu (Nginx + HTTPS)
+# Secure Webserver on Ubuntu (Nginx + HTTPS)
 
 Déploiement d’un serveur web sécurisé via HTTPS auto-signé dans une VM Ubuntu Server, gérée avec Vagrant. Projet orienté TSSR : configuration de service, sécurité réseau et automatisation.
 
----
 
-## 📦 Fonctionnalités
 
-- 💻 Déploiement automatique d'une VM Ubuntu 20.04 (Vagrant + VirtualBox)
-- 🌐 Serveur web Nginx installé et configuré
-- 🔒 HTTPS activé avec certificat auto-signé
-- 🔁 Redirection HTTP vers HTTPS
-- 🧾 Page web personnalisée (HTML)
-- 🛡️ Pare-feu configuré avec UFW (ouvert uniquement : 22, 80, 443)
+##  Fonctionnalités
 
----
+-  Déploiement automatique d'une VM Ubuntu 20.04 (Vagrant + VirtualBox)
+-  Serveur web Nginx installé et configuré
+-  HTTPS activé avec certificat auto-signé
+-  Redirection HTTP vers HTTPS
+-  Page web personnalisée (HTML)
+-  Pare-feu configuré avec UFW (ouvert uniquement : 22, 80, 443)
 
-## 🚀 Lancer le projet
+
+
+##  Lancer le projet
 
 **1. Cloner ce dépôt :**
   
@@ -36,7 +36,7 @@ https://192.168.56.10 (certificat auto-signé, acceptez l’avertissement)
 
 vagrant ssh
 
-# 🧾 Configuration utilisée :
+# Configuration utilisée :
 
 **OS :** Ubuntu Server 20.04 (focal64)
 
@@ -48,7 +48,7 @@ vagrant ssh
 
 **Réseau :** IP privée 192.168.56.10
 
-# 📁 Arborescence :
+# Arborescence :
 
 secure-webserver-ubuntu/
 ├── Vagrantfile
@@ -58,7 +58,7 @@ secure-webserver-ubuntu/
 ├── notes.md  (optionnel : journal, commandes, erreurs)
 └── .gitignore
 
- # 🔧 Évolutions possibles
+ # Évolutions possibles
 
 **Ajouter un script d’installation** (setup.sh)
 
