@@ -10,7 +10,7 @@ Desktop.ini
 # Dossiers Vagrant
 .vagrant/
 
-# Clés privées SSH (si tu en utilises)
+# Clés privées SSH 
 *.pem
 *.key
 
@@ -19,7 +19,7 @@ Desktop.ini
 .idea/
 *.swp
 
-# Fichiers Python compilés (si jamais tu utilises Python)
+# Fichiers Python compilés 
 __pycache__/
 *.pyc
 
